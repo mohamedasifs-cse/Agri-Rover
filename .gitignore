@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Next.js and build output
+.next/
+out/
+build/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log

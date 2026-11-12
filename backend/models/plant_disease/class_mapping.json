@@ -1,0 +1,27 @@
+{
+  "class_to_idx": {
+    "bunchy_top": 0,
+    "downy_mildew": 1,
+    "healthy": 2,
+    "viral_symptoms": 3
+  },
+  "idx_to_class": {
+    "0": "bunchy_top",
+    "1": "downy_mildew",
+    "2": "healthy",
+    "3": "viral_symptoms"
+  },
+  "display_names": {
+    "bunchy_top": "Bunchy Top",
+    "downy_mildew": "Downy Mildew",
+    "healthy": "Healthy Leaf",
+    "viral_symptoms": "Leaf Curl (Mosaic Virus)"
+  },
+  "raw_folder_map": {
+    "Bunchy top of bitter gourd(96)": "bunchy_top",
+    "Downy mildew(944)": "downy_mildew",
+    "Healthy leaf(328)": "healthy",
+    "Leaf curl (Mosaic virus)(1056)": "viral_symptoms"
+  },
+  "num_classes": 4
+}

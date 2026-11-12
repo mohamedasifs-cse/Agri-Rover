@@ -1,0 +1,103 @@
+{
+  "evaluation_timestamp": "2026-10-22T17:28:12Z",
+  "model_architecture": "EfficientNet-B0",
+  "model_size_mb": 15.59,
+  "device": "cpu",
+  "test_dataset_size": 336,
+  "total_dataset_size": 2424,
+  "num_classes": 4,
+  "classes": [
+    "bunchy_top",
+    "downy_mildew",
+    "healthy",
+    "viral_symptoms"
+  ],
+  "summary_metrics": {
+    "test_accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "mean_inference_latency_ms": 34.75,
+    "p95_inference_latency_ms": 59.54
+  },
+  "per_class_metrics": {
+    "bunchy_top": {
+      "display_name": "Bunchy Top",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_support": 8
+    },
+    "downy_mildew": {
+      "display_name": "Downy Mildew",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_support": 136
+    },
+    "healthy": {
+      "display_name": "Healthy Leaf",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_support": 40
+    },
+    "viral_symptoms": {
+      "display_name": "Leaf Curl (Mosaic Virus)",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "test_support": 152
+    }
+  },
+  "confusion_matrix": {
+    "classes": [
+      "bunchy_top",
+      "downy_mildew",
+      "healthy",
+      "viral_symptoms"
+    ],
+    "matrix": [
+      [
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        136,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        40,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        152
+      ]
+    ]
+  },
+  "error_analysis": [],
+  "confidence_calibration": {
+    "0.5-0.7": {
+      "sample_count": 0,
+      "accuracy": 0.0
+    },
+    "0.7-0.9": {
+      "sample_count": 0,
+      "accuracy": 0.0
+    },
+    "0.9-1.0": {
+      "sample_count": 336,
+      "accuracy": 1.0
+    }
+  },
+  "field_image_disclaimer": "Model evaluated on curated Bitter Gourd pandal leaf dataset. Real-world field images with heavy occlusions, direct sun glare, or non-leaf objects should be verified with calibrated confidence thresholds."
+}
